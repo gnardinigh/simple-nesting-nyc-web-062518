@@ -127,5 +127,6 @@ programmer_hash[:dennis_ritchie][:languages] << "Assembly"
 return programmer_hash
 end
 
-adding_to_dennis
-puts programmer_hash[:dennis_ritchie]
+a = adding_to_dennis
+puts a[:dennis_ritchie][:languages].inspect
+
