@@ -128,4 +128,4 @@ return programmer_hash
 end
 
 adding_to_dennis
-puts programmer_hash[:dennis_ritchie][:languages].inspect
+puts programmer_hash[:dennis_ritchie]
